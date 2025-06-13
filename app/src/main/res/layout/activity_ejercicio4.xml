@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 4"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un color:"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp" />
+
+    <Spinner
+        android:id="@+id/cboColores"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="El color elegido es Rojo"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Volver al Menú" />
+
+</LinearLayout>

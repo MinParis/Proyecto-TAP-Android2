@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <CheckBox
+        android:id="@+id/chkPerro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perro"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/chkGato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gato"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/chkRaton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ratón"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Aceptar"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona tus animales favoritos"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="#f0f0f0"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Volver al Menú"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

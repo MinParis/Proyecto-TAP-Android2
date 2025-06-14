@@ -2,7 +2,7 @@
 
 **Tecnología:** Java con Android Studio  
 **Materia:** Tópicos de Programación  
-**Unidad:** Unidad 1
+**Unidad:** Proyecto final
 
 ---
 
